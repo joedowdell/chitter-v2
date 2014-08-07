@@ -10,7 +10,7 @@ DataMapper.finalize
 
 
 # Run "DataMapper.auto_migrate!" to reboot database
-# DataMapper.auto_migrate!
+DataMapper.auto_migrate!
 
 
 
