@@ -7,4 +7,5 @@ class Reply
   property :time_stamp, DateTime
 
   belongs_to :peep
+  
 end
