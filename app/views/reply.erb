@@ -2,7 +2,8 @@
   <div class='content'><%=Reply.first.content %>
   </div>
   <span class='source'>
-    added <%= Time.now.asctime %> by 
+    added <%= Time.now.asctime %> by
+    <%= peep.user.chitter_name %> 
   </span>
 </li>
 

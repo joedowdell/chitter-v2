@@ -3,7 +3,7 @@ get '/sessions/new' do
 end
 
 post '/sessions' do
-  email, password, chitter_name = params[:email], params[:password], params[:chitter_name]
+  email, password, chitter_name = params[:email], params[:password]
   user = User.authenticate(email, password)
   if user
     session[:user_id] = user.id
